@@ -3,37 +3,28 @@
     <head>
         <meta charset = "utf-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <h1>Odin Recipes</h1>
-        <div style="text-align: center;">
-            <img src="images/cooking.gif" width="300" alt="Cooking gif">
+        <div class="front-gif">
+            <img src="images/cooking.gif" class="cooking-gif" alt="Cooking gif">
         </div>
 
-        <table width="100%" style="margin-top: 20px; text-align: center;">
-            <tr>
-                <td width="33%" align="center">
-                    <a href="recipes/hibachi_fried_rice.html">
-                        <img src="images/hibachi_fried_rice.jpg" alt="Hibachi Fried Rice" height="300">
-                    </a>
-                </td>
-                <td width="33%" align="center">
-                    <a href="recipes/mac.html">
-                        <img src="images/mac.png" alt="Mac & Cheese" height="300">
-                    </a>
-                </td>
-                <td width="33%" align="center">
-                    <a href="recipes/salmon_bake.html">
-                        <img src="images/salmon_bake.jpg" alt="Salmon Bake" height="300">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td width="33%" align="center"><a href="recipes/hibachi_fried_rice.html">Hibachi Fried Rice</a></td>
-                <td width="33%" align="center"><a href="recipes/mac.html">Mac & Cheese</a></td>
-                <td width="33%" align="center"><a href="recipes/salmon_bake.html">Sushi Salmon Bake</a></td>
-            </tr>
-        </table>
+        <div class="recipes-row">
+            <a class="recipe-card" href="recipes/hibachi_fried_rice.html">
+                <img src="images/hibachi_fried_rice.jpg" alt="Hibachi Fried Rice">
+                <div class="caption">Hibachi Fried Rice</div>
+            </a>
+            <a class="recipe-card" href="recipes/mac.html">
+                <img src="images/mac.png" alt="Mac & Cheese">
+                <div class="caption">Mac & Cheese</div>
+            </a>
+            <a class="recipe-card" href="recipes/salmon_bake.html">
+                <img src="images/salmon_bake.jpg" alt="Sushi Salmon Bake">
+                <div class="caption">Sushi Salmon Bake</div>
+            </a>
+        </div>
     </body>
 </html>
