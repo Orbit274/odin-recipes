@@ -2,6 +2,15 @@ body {
 	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 	margin: 16px;
     color: black;
+    background: linear-gradient(to bottom, #FFF9C4, #FFD180);
+}
+
+hr {
+    border: 1px solid black;
+}
+
+a {
+    color: red;
 }
 
 /* Center the gif on the front */
@@ -43,18 +52,17 @@ body {
 .recipe-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(250px, auto);
+    grid-auto-rows: min-content;
     gap: 10px;
-    margin: 10px 10px 0px 10px;
+    margin: 5px 0;
 }
 
 .recipe-image {
     grid-column: 1;
     grid-row: 1;
-    padding: 10px;
+    padding: 5px;
     max-width: 100%;
     height: fit-content;
-    margin: 10px
 }
 
 img {
@@ -68,14 +76,14 @@ img {
 .recipe-ingredients {
     grid-column: 2;
     grid-row: 1;
-    padding: 10px 10px 10px 30px;
+    padding: 5px 5px 5px 15px;
     height: fit-content;
 }
 
 .recipe-steps {
     grid-column: 3;
     grid-row: 1;
-    padding: 10px;
+    padding: 5px;
     height: fit-content;
 }
 
