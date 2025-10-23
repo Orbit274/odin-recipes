@@ -39,11 +39,11 @@ body {
 	font-weight: bold;
 }
 
-/* Recipe page layout: three columns in a row */
+/* Recipe page layout, three columns in a row */
 .recipe-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(250px, 600px);
+    grid-auto-rows: minmax(250px, auto);
     gap: 10px;
     margin: 10px 10px 0px 10px;
 }

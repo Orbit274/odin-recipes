@@ -1,6 +1,6 @@
 ## About
 
-Basic website, made solely with html, shows the recipes for 3 delicious dishes
+Basic website which shows the recipes for 3 delicious dishes
 
 ## Recipes
 
